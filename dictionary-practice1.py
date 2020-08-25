@@ -18,7 +18,7 @@ except KeyError:
 print(retained_alice)
 
 phonebook_dict["Bob"] = "968-489-2154"
-print("*" * 20)
+print("*" * 20, "\n" * 3)
 
 for key in phonebook_dict:
     print(f"{key}: {phonebook_dict[key]}\n")
